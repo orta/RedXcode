@@ -11,6 +11,8 @@
 		60D7E428197CF3080026E73B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60D7E427197CF3080026E73B /* Foundation.framework */; };
 		60D7E42E197CF3080026E73B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60D7E42C197CF3080026E73B /* InfoPlist.strings */; };
 		60D7E431197CF3080026E73B /* RedXcode.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D7E430197CF3080026E73B /* RedXcode.m */; };
+		60D7E43A197CF3CE0026E73B /* ORDebuggerCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D7E439197CF3CE0026E73B /* ORDebuggerCheck.m */; };
+		60D7E43F197CF5210026E73B /* redcode.png in Resources */ = {isa = PBXBuildFile; fileRef = 60D7E43E197CF5210026E73B /* redcode.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,9 @@
 		60D7E42F197CF3080026E73B /* RedXcode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RedXcode.h; sourceTree = "<group>"; };
 		60D7E430197CF3080026E73B /* RedXcode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedXcode.m; sourceTree = "<group>"; };
 		60D7E432197CF3080026E73B /* RedXcode-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RedXcode-Prefix.pch"; sourceTree = "<group>"; };
+		60D7E438197CF3CE0026E73B /* ORDebuggerCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORDebuggerCheck.h; sourceTree = "<group>"; };
+		60D7E439197CF3CE0026E73B /* ORDebuggerCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORDebuggerCheck.m; sourceTree = "<group>"; };
+		60D7E43E197CF5210026E73B /* redcode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redcode.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,8 +71,11 @@
 		60D7E429197CF3080026E73B /* RedXcode */ = {
 			isa = PBXGroup;
 			children = (
+				60D7E43E197CF5210026E73B /* redcode.png */,
 				60D7E42F197CF3080026E73B /* RedXcode.h */,
 				60D7E430197CF3080026E73B /* RedXcode.m */,
+				60D7E438197CF3CE0026E73B /* ORDebuggerCheck.h */,
+				60D7E439197CF3CE0026E73B /* ORDebuggerCheck.m */,
 				60D7E42A197CF3080026E73B /* Supporting Files */,
 			);
 			path = RedXcode;
@@ -134,6 +142,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60D7E43F197CF5210026E73B /* redcode.png in Resources */,
 				60D7E42E197CF3080026E73B /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				60D7E431197CF3080026E73B /* RedXcode.m in Sources */,
+				60D7E43A197CF3CE0026E73B /* ORDebuggerCheck.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +292,7 @@
 				60D7E437197CF3080026E73B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
