@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60D7E426197CF3080026E73B /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60D7E425197CF3080026E73B /* AppKit.framework */; };
+		60D7E428197CF3080026E73B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60D7E427197CF3080026E73B /* Foundation.framework */; };
+		60D7E42E197CF3080026E73B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60D7E42C197CF3080026E73B /* InfoPlist.strings */; };
+		60D7E431197CF3080026E73B /* RedXcode.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D7E430197CF3080026E73B /* RedXcode.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		60D7E422197CF3080026E73B /* RedXcode.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedXcode.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		60D7E425197CF3080026E73B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		60D7E427197CF3080026E73B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		60D7E42B197CF3080026E73B /* RedXcode-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RedXcode-Info.plist"; sourceTree = "<group>"; };
+		60D7E42D197CF3080026E73B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		60D7E42F197CF3080026E73B /* RedXcode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RedXcode.h; sourceTree = "<group>"; };
+		60D7E430197CF3080026E73B /* RedXcode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedXcode.m; sourceTree = "<group>"; };
+		60D7E432197CF3080026E73B /* RedXcode-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RedXcode-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60D7E41F197CF3080026E73B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60D7E426197CF3080026E73B /* AppKit.framework in Frameworks */,
+				60D7E428197CF3080026E73B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60D7E419197CF3080026E73B = {
+			isa = PBXGroup;
+			children = (
+				60D7E429197CF3080026E73B /* RedXcode */,
+				60D7E424197CF3080026E73B /* Frameworks */,
+				60D7E423197CF3080026E73B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60D7E423197CF3080026E73B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60D7E422197CF3080026E73B /* RedXcode.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60D7E424197CF3080026E73B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60D7E425197CF3080026E73B /* AppKit.framework */,
+				60D7E427197CF3080026E73B /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		60D7E429197CF3080026E73B /* RedXcode */ = {
+			isa = PBXGroup;
+			children = (
+				60D7E42F197CF3080026E73B /* RedXcode.h */,
+				60D7E430197CF3080026E73B /* RedXcode.m */,
+				60D7E42A197CF3080026E73B /* Supporting Files */,
+			);
+			path = RedXcode;
+			sourceTree = "<group>";
+		};
+		60D7E42A197CF3080026E73B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				60D7E42B197CF3080026E73B /* RedXcode-Info.plist */,
+				60D7E42C197CF3080026E73B /* InfoPlist.strings */,
+				60D7E432197CF3080026E73B /* RedXcode-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60D7E421197CF3080026E73B /* RedXcode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60D7E435197CF3080026E73B /* Build configuration list for PBXNativeTarget "RedXcode" */;
+			buildPhases = (
+				60D7E41E197CF3080026E73B /* Sources */,
+				60D7E41F197CF3080026E73B /* Frameworks */,
+				60D7E420197CF3080026E73B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RedXcode;
+			productName = RedXcode;
+			productReference = 60D7E422197CF3080026E73B /* RedXcode.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60D7E41A197CF3080026E73B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Orta Therox";
+			};
+			buildConfigurationList = 60D7E41D197CF3080026E73B /* Build configuration list for PBXProject "RedXcode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 60D7E419197CF3080026E73B;
+			productRefGroup = 60D7E423197CF3080026E73B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60D7E421197CF3080026E73B /* RedXcode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60D7E420197CF3080026E73B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60D7E42E197CF3080026E73B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60D7E41E197CF3080026E73B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60D7E431197CF3080026E73B /* RedXcode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		60D7E42C197CF3080026E73B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60D7E42D197CF3080026E73B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60D7E433197CF3080026E73B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		60D7E434197CF3080026E73B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		60D7E436197CF3080026E73B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RedXcode/RedXcode-Prefix.pch";
+				INFOPLIST_FILE = "RedXcode/RedXcode-Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		60D7E437197CF3080026E73B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RedXcode/RedXcode-Prefix.pch";
+				INFOPLIST_FILE = "RedXcode/RedXcode-Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60D7E41D197CF3080026E73B /* Build configuration list for PBXProject "RedXcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60D7E433197CF3080026E73B /* Debug */,
+				60D7E434197CF3080026E73B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60D7E435197CF3080026E73B /* Build configuration list for PBXNativeTarget "RedXcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60D7E436197CF3080026E73B /* Debug */,
+				60D7E437197CF3080026E73B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60D7E41A197CF3080026E73B /* Project object */;
+}
