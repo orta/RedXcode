@@ -2,7 +2,6 @@ RedXcode
 ========
 
 When Xcode is being ran in a debugger, make it obvious that it's in dev mode.
-Make it obvious that you're in dev mode.
 
 ![Screenshot of plugin](https://raw.githubusercontent.com/orta/RedXcode/master/web/screenshot.png)
 ![Screenshot of dock icon](https://raw.githubusercontent.com/orta/RedXcode/master/web/screenshot2.png)
