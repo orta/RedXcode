@@ -9,7 +9,7 @@ When Xcode is being ran in a debugger, make it obvious that it's in dev mode.
 #### Features
 
 * Hue shifts the app icon when running Xcode in a debugger
-* Adds the icon to the top right corner in Xcode 5, Xcode 6 support is not in.
+* Adds the icon to the top right corner.
 * Hue shift value can be changed by `defaults write com.apple.dt.Xcode ORHueShiftKey [number]`
 
 #### Installation
