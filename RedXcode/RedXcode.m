@@ -89,6 +89,8 @@ static CGFloat ORRedXcodeStripeTag = 2324;
             }
         }
 
+        // Idea politely stolen from @zats: https://github.com/zats/BetaWarpaint
+        
         NSImageView *stripeView = [windowFrameView viewWithTag:ORRedXcodeStripeTag];
 
         if (!stripeView) {

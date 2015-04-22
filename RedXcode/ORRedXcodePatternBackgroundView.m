@@ -2,10 +2,10 @@
 
 @interface ORRedXcodePatternBackgroundView()
 @property (strong, nonatomic) NSColor *stripedPatternColour;
-
 @end
 
 @implementation ORRedXcodePatternBackgroundView
+@synthesize tag;
 
 - (instancetype)initWithFrame:(NSRect)frameRect
 {
@@ -42,6 +42,11 @@
 }
 
 - (NSView *)hitTest:(NSPoint)aPoint
+{
+    return NO;
+}
+
+- (BOOL)acceptsFirstMouse:(NSEvent *)theEvent
 {
     return NO;
 }
