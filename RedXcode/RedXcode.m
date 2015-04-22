@@ -1,13 +1,6 @@
-//
-//  RedXcode.m
-//  RedXcode
-//
-//  Created by Orta on 21/07/2014.
-//    Copyright (c) 2014 Orta Therox. All rights reserved.
-//
-
 #import "RedXcode.h"
 #import "ORDebuggerCheck.h"
+#import "ORRedXcodePatternBackgroundView.h"
 
 @import QuartzCore;
 
@@ -72,6 +65,7 @@ static NSString *ORHueShiftKey = @"ORHueShiftKey";
 }
 
 static CGFloat ORRedXcodeBannerTag = 2323;
+static CGFloat ORRedXcodeStripeTag = 2324;
 
 - (void)setupBannerForWindow:(NSWindow *)window
 {
@@ -86,14 +80,40 @@ static CGFloat ORRedXcodeBannerTag = 2323;
             bannerView = [[NSImageView alloc] initWithFrame:CGRectMake(x, y, 20, 20)];
             bannerView.image = [NSApplication sharedApplication].applicationIconImage;
             bannerView.autoresizingMask = NSViewMinXMargin | NSViewMinYMargin | NSViewWidthSizable;
+            bannerView.tag = ORRedXcodeBannerTag;
 
             if ([windowFrameView respondsToSelector:@selector(_addKnownSubview:)]) {
                 [(id)windowFrameView _addKnownSubview:bannerView];
             } else {
                 [windowFrameView addSubview:bannerView];
             }
-
         }
+
+        NSImageView *stripeView = [windowFrameView viewWithTag:ORRedXcodeStripeTag];
+
+        if (!stripeView) {
+            CGFloat h = CGRectGetHeight(windowFrameView.bounds);
+            CGFloat w = CGRectGetWidth(windowFrameView.bounds);
+
+//            This lies on Yosemite
+//            CGRect windowFrame = [NSWindow contentRectForFrameRect:window.frame styleMask: window.styleMask];
+//            CGFloat toolbarHeight = NSHeight(windowFrame) - NSHeight([window.contentView frame]);
+
+            CGFloat toolbarHeight = 38;
+
+            stripeView = (id)[[ORRedXcodePatternBackgroundView alloc] initWithFrame:CGRectMake(0, h - toolbarHeight, w, toolbarHeight)];
+            stripeView.tag = ORRedXcodeStripeTag;
+            stripeView.autoresizingMask = NSViewMaxXMargin | NSViewMinYMargin | NSViewWidthSizable;
+            [stripeView setWantsLayer:YES];
+            [stripeView unregisterDraggedTypes];
+
+            if ([windowFrameView respondsToSelector:@selector(_addKnownSubview:)]) {
+                [(id)windowFrameView _addKnownSubview:stripeView];
+            } else {
+                [windowFrameView addSubview:stripeView];
+            }
+        }
+
     }
 }
 

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60071F881AE7F2D2000ED7DB /* ORRedXcodePatternBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60071F871AE7F2D2000ED7DB /* ORRedXcodePatternBackgroundView.m */; };
+		60071F8B1AE7F2EA000ED7DB /* pattern.png in Resources */ = {isa = PBXBuildFile; fileRef = 60071F891AE7F2EA000ED7DB /* pattern.png */; };
+		60071F8C1AE7F2EA000ED7DB /* pattern@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 60071F8A1AE7F2EA000ED7DB /* pattern@2x.png */; };
 		60D7E426197CF3080026E73B /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60D7E425197CF3080026E73B /* AppKit.framework */; };
 		60D7E428197CF3080026E73B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60D7E427197CF3080026E73B /* Foundation.framework */; };
 		60D7E42E197CF3080026E73B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60D7E42C197CF3080026E73B /* InfoPlist.strings */; };
@@ -15,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		60071F861AE7F2D2000ED7DB /* ORRedXcodePatternBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORRedXcodePatternBackgroundView.h; sourceTree = "<group>"; };
+		60071F871AE7F2D2000ED7DB /* ORRedXcodePatternBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORRedXcodePatternBackgroundView.m; sourceTree = "<group>"; };
+		60071F891AE7F2EA000ED7DB /* pattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pattern.png; sourceTree = "<group>"; };
+		60071F8A1AE7F2EA000ED7DB /* pattern@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pattern@2x.png"; sourceTree = "<group>"; };
 		60D7E422197CF3080026E73B /* RedXcode.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedXcode.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		60D7E425197CF3080026E73B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		60D7E427197CF3080026E73B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -73,6 +80,8 @@
 				60D7E430197CF3080026E73B /* RedXcode.m */,
 				60D7E438197CF3CE0026E73B /* ORDebuggerCheck.h */,
 				60D7E439197CF3CE0026E73B /* ORDebuggerCheck.m */,
+				60071F861AE7F2D2000ED7DB /* ORRedXcodePatternBackgroundView.h */,
+				60071F871AE7F2D2000ED7DB /* ORRedXcodePatternBackgroundView.m */,
 				60D7E42A197CF3080026E73B /* Supporting Files */,
 			);
 			path = RedXcode;
@@ -81,6 +90,8 @@
 		60D7E42A197CF3080026E73B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				60071F891AE7F2EA000ED7DB /* pattern.png */,
+				60071F8A1AE7F2EA000ED7DB /* pattern@2x.png */,
 				60D7E42B197CF3080026E73B /* RedXcode-Info.plist */,
 				60D7E42C197CF3080026E73B /* InfoPlist.strings */,
 				60D7E432197CF3080026E73B /* RedXcode-Prefix.pch */,
@@ -139,6 +150,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60071F8B1AE7F2EA000ED7DB /* pattern.png in Resources */,
+				60071F8C1AE7F2EA000ED7DB /* pattern@2x.png in Resources */,
 				60D7E42E197CF3080026E73B /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				60D7E431197CF3080026E73B /* RedXcode.m in Sources */,
+				60071F881AE7F2D2000ED7DB /* ORRedXcodePatternBackgroundView.m in Sources */,
 				60D7E43A197CF3CE0026E73B /* ORDebuggerCheck.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
