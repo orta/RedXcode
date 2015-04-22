@@ -11,17 +11,17 @@
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>D89CD1375B27A0652745686C2ED477E19CC79C3F</key>
-		<string>https://github.com/orta/RedXcode.git</string>
+		<string>github.com:orta/RedXcode.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>RedXcode.xcodeproj/project.xcworkspace</string>
+	<string>RedXcode.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>D89CD1375B27A0652745686C2ED477E19CC79C3F</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/orta/RedXcode.git</string>
+	<string>github.com:orta/RedXcode.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
