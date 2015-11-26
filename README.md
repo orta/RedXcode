@@ -16,6 +16,13 @@ When Xcode is being ran in a debugger, make it obvious that it's in dev mode.
 
 Install [Alcatraz](http://alcatraz.io/). In XCode choose Window, Package Manager and search for "RedXcode". Alternatively, clone this repo and hit build, then restart Xcode. Alcatraz is better, you get updates with no effort.
 
+#### Usage
+
+In the ‘Run’ section of your plugin’s scheme:
+
+* Set Xcode.app to be the ‘Executable’ to launch from the ‘Info’ tab.
+* Disable ‘View Debugging’ from the ‘Options’ tab.
+
 #### Contributing
 
 It's actually _way_ easier to work on Plugins than you think. Hitting run in Xcode on this project will open a new Xcode with a working lldb instance and you can work on it like any other app. Contributions are extremely welcome of course, large visual design changes should probably be talked about in an issue first FWIW.
