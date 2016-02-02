@@ -14,7 +14,7 @@ When Xcode is being ran in a debugger, make it obvious that it's in dev mode.
 
 #### Installation
 
-Install [Alcatraz](http://alcatraz.io/). In XCode choose Window, Package Manager and search for "RedXcode". Alternatively, clone this repo and hit build, then restart Xcode. Alcatraz is better, you get updates with no effort.
+Install [Alcatraz](http://alcatraz.io/). In Xcode choose Window, Package Manager and search for "RedXcode". Alternatively, clone this repo and hit build, then restart Xcode. Alcatraz is better, you get updates with no effort.
 
 #### Usage
 
